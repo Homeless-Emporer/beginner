@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-igccnt main()
+int main()
 {
     char card_name[3];
     puts("Enter the card_name: ");
@@ -20,6 +20,11 @@ igccnt main()
     }else {
         val = atoi(card_name);
     }
-    printf("The card value is: %d\n", val);
+    if ((val >= 3) && (val <= 6)){
+        puts("count has gone up");
+    }else if (val == 10){
+        puts("val has gone down");
+    }
+
     return 0;
 }
