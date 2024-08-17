@@ -4,14 +4,14 @@ if (card_count > 10)
 
 
 int c = 10
-while (c > 0) (
+while(c > 0) {
     puts("I must not write code in class");
-    c = c -1;
-)
+    c -= 1;
+}
 
 
 /* Assume name shorter than 20 chars*/
-char ex[20];
+char ex[10];
 puts("Enter boyfriend's name: ");
 scanf("%19s", ex);
 printf("Dear %s.\n\ntYou're histpry.\n", ex);
