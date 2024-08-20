@@ -1,0 +1,3 @@
+let's say I wanted to build an application that takes in real time meteorological information and forecasts of the city you live in and then gives you a list of activities that are perfect for the weather conditions. 
+To develop this I would need an api to get accurate and detailed real time data for every city in the US. tomorrow.io offers such an api their high resolution data is so accurate that even big companies such as fox sports and ford rely on it. and they even have a free plan although you might want to upgrade if you're going to be having many users since it's limited to 25 api calls a day.
+https://www.tomorrow.io/weather-api/

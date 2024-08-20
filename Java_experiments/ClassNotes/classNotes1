@@ -1,0 +1,34 @@
+ALGORITHM: A finite sequence of steps detailing how to accomplish a task.
+
+Computer science, then, is the study of computational devices and the study of computation
+itself, including algorithms.
+
+WHY: Algorithms are expressed as computer programs and that is why cs focuses so much on programming.
+
+PROGRAMS: Computers process data under the control of sequences of instructions called
+computer programs. These programs guide the computer through ordered actions specified by people called programmers.
+
+APPLICATIONS: Programs that are run by an operating system.
+
+DIGITAL: Signal or Data that is expressed as series of discrete digits (1,2,3,4);
+
+CODE: The word code describes program fragments (“these four lines of
+code”) or the act of programming (“Let’s code this into Java”).
+
+COMPILER: A program that translates a computer program written in one language into an equivalent program in anotherlanguage (often, but not always, translating from a high-level language into machine language).
+
+NATIVE COMPILERS: compilers that directly compile to machine code of a system.
+
+EXECUTABLE:A native compiler that translates directly into machine language creates a program that can be executed directly on the computer, known as an executable.
+
+PLATFORM INDEPENDENCE: Java was designed with the principle of "Write Once, Run Anywhere" in mind. This means that Java programs should be able to run on any device or operating system without modification. 
+
+BYTTE CODE & JVM: These bytecodes represent an Intermediate level: They aren’t quite as high-level as Java or as low-level as machine language. In fact, they are the machine language of a theoretical computer known as the Java Virtual Machine (JVM)
+
+jAVA RUNTIMES: To actually execute a Java program, you need another program that will execute the Java bytecodes. Such programs are known generically as Java runtimes, and the standard environment distributed by Oracle is known as the Java Runtime Environment (JRE).
+
+lIBRARIES: a large amount of prewritten software that programmers can utilize to enhance their programs.
+
+CLASS VS FUNCTION LIBRARIES: Class libraries are used in object-oriented languages and paradigms, whereas function libraries are used in procedural languages.
+
+MORE: The Java program files that you create must use the extension ".java" . When you compile a Java program, the resulting Java bytecodes are stored in a file with the same name and the extension ".class" .
