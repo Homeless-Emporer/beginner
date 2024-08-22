@@ -1,0 +1,22 @@
+STRING LITERALS: you’ll often want to include some literal text to send to the console window as output. Programmers have traditionally referred to such text as a string because it is composed of a sequence of characters that we string together
+
+ESCAPE SEQUENCES: Escape sequences are two-character sequences that are used to represent special characters. They all begin with the backslash character (\).lists some of the more common escape sequences.
+
+IDENTFIER: The words used to name parts of a Java program are called identifiers, name given to an entity in a program, such as a class or method. (FUNCTION,VARIABLE,METHOD,ETC IDENTIFIES)
+
+CAPITALIZATION SCHEME: AllMyChildren for a class name (each word starts with a capital) allMyChildren for a method name (starts with a lowercase letter, subsequent words capitalized) ALL_MY_CHILDREN for a constant name (all uppercase, with words separated by underscores; 
+
+AVOID KEYWORD NAMES
+
+SYNTAX ERRORS: Mistakes made in the program cause by bad grammar
+-if class name does not match file name
+-mispell words
+-capitalize words like System
+-semicolon
+
+LOGICAL ERRORS: Mistakes made that cause the code to misbehave
+Also known as bugs
+might produce the wrong output
+
+RUNTIME ERROS: Logical errors so bad that the program has to stop running as its confused.
+Logical errors that ask the program to do something it isnt capable of

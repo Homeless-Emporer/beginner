@@ -23,12 +23,44 @@ EXECUTABLE:A native compiler that translates directly into machine language crea
 
 PLATFORM INDEPENDENCE: Java was designed with the principle of "Write Once, Run Anywhere" in mind. This means that Java programs should be able to run on any device or operating system without modification. 
 
-BYTTE CODE & JVM: These bytecodes represent an Intermediate level: They aren’t quite as high-level as Java or as low-level as machine language. In fact, they are the machine language of a theoretical computer known as the Java Virtual Machine (JVM)
+BYTE CODE & JVM: These bytecodes represent an Intermediate level: They aren’t quite as high-level as Java or as low-level as machine language. In fact, they are the machine language of a theoretical computer known as the Java Virtual Machine (JVM)
 
 jAVA RUNTIMES: To actually execute a Java program, you need another program that will execute the Java bytecodes. Such programs are known generically as Java runtimes, and the standard environment distributed by Oracle is known as the Java Runtime Environment (JRE).
+
+STATEMENT: A snipper of executable code that represents a complete command.
 
 lIBRARIES: a large amount of prewritten software that programmers can utilize to enhance their programs.
 
 CLASS VS FUNCTION LIBRARIES: Class libraries are used in object-oriented languages and paradigms, whereas function libraries are used in procedural languages.
 
-MORE: The Java program files that you create must use the extension ".java" . When you compile a Java program, the resulting Java bytecodes are stored in a file with the same name and the extension ".class" .
+MORE: The Java program files that you create must use the extension ".java" . When you compile a Java program, the resulting Java bytecodes are stored in a file with the same name and the extension ".class".
+
+CLASS: The highest unit of code that is the basic building block of Java programs. In the Java programming language, nothing can exist outside of a class.
+
+CLASS STANDARDS: Class names and file names must match and should be capitalized
+
+BASIC CLASS FORM: {
+
+	public class <name> {
+		<method>
+		<method>
+		.....
+		<method>
+	}
+	
+PUBLIC: The word public in the header indicates that this class is available to anyone to use.
+
+METHOD: Methods are the next-smallest unit of code in Java, after classes. A method represents a single action or calculation to be performed.
+
+COMPLETE METHOD FORM: {
+
+	public static void main(String[] args) {
+	<statement>;
+	<statement>;
+	....
+	<statement>;
+	}
+}
+
+ENTRY POINT: public static void main(String[] args)
+

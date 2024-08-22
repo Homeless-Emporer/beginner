@@ -96,3 +96,32 @@ while(feeling_like_doing_something) {
     J_do_it();
     }
 }
+emum primaryColor myColor, gregsColor;
+enum primaryColor {red, green, blue};
+
+myColor = red;
+gresColor = blue;
+
+enum primaryColor hisColor;
+hisColor = green
+
+char broiled;
+
+broiled = 'T';
+
+int main()
+{
+enum gender {male, female};
+enum gender myGender;
+
+myGender = male;
+
+enum gender anotherGender = female;
+
+bool isMale = (myGender == anotherGender);
+
+char myCharacter = '\n'
+
+printf("%c", myCharacter);
+
+}

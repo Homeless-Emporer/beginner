@@ -12,7 +12,8 @@ is_audio_playing() {
 # Main loop
 while true; do
     if ! is_audio_playing; then
-        echo "No audio detected. Disconnecting Bluetooth..."
+        echo "No audio detected. Disconnecting Blu
+        etooth..."
         bluetoothctl disconnect $DEVICE_MAC
         exit 0
     fi
