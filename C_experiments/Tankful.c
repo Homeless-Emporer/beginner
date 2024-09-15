@@ -1,4 +1,8 @@
 /*
+
+*Intialize number of gallons to 0
+*Initialize number of miles to 0
+*declare variable for number of miles driven
 *while condition is true
 *    prompt user to input number of gallons
 *    read number of gallons
