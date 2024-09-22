@@ -20,7 +20,7 @@ bool isPrime(int num)
 
 	for (int i = 2; (i <= num/2); ++i)
 	{
-		if (num % i == 0)
+		if (0 == num % i)
 		{
 			return 0;
 		}//End of if statement
@@ -32,7 +32,7 @@ int main()
 {
 	int num;
 
-	printf("%s","End a number to check if it's prime: \n"");
+	printf("%s","End a number to check if it's prime: \n");
 	scanf("%d", &num);
 
 	if(isPrime(num))
