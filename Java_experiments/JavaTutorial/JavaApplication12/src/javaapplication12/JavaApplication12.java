@@ -23,8 +23,8 @@ public class JavaApplication12 {
         bubbleSort(arr);
         System.out.println("The sorted array is: ");
         System.out.println(Arrays.toString(arr));
-        
-        int result = binarySearch(arr,key,0,16);
+        for ()
+        int result = binarySearch(arr, key, 0,16);
         if (result == -1)
         {
             System.out.println("The element is not in the array! ");
@@ -63,5 +63,5 @@ public class JavaApplication12 {
         }
         return -1;
     }
-    
+   
 }
