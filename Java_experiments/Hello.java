@@ -13,4 +13,4 @@ public class Hello
         System.out.print("My name is Fracas Kapesa ");
         System.out.println("This was pretty easy! Now get it to run!");
     } // main method begins execution of Java application
-} // 
+} // end of CLASS

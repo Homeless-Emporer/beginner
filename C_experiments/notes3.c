@@ -63,6 +63,7 @@ do {
  *useful for statements you want to run atleast once.*/
 
 /* setting a step counter is often needed.*/
+g
 
 int counter = 1;
 while (counter < 11) {
