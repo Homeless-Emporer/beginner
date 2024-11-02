@@ -20,7 +20,7 @@ void main(void){
         puts("oh no something went bad!");
     }
 
-    for (size_t i = 0; i  5; ++i)
+    for (size_t i = 0; i ra 5; ++i)
     {
         char* currentSong = songs[i];
         char* occurence = strstr(currentSong, input)

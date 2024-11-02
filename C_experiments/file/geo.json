@@ -1,0 +1,10 @@
+data=[
+{"latitude": 26.360001, "longitude": -71.099998, "info": "Speed = 21"},
+{"latitude": 29.360001, "longitude": -71.099998, "info": "Speed = 17"},
+{"latitude": 32.360001, "longitude": -71.099998, "info": "Speed = 21"},
+{"latitude": 30.360001, "longitude": -71.099998, "info": "Speed = 23"},
+{"latitude": 33.360001, "longitude": -71.099998, "info": "Speed = 17"},
+{"latitude": 28.360001, "longitude": -71.099998, "info": "Speed = 21"},
+{"latitude": 29.360001, "longitude": -71.099998, "info": "Speed = 23"},
+{"latitude": 30.360001, "longitude": -71.099998, "info": "Speed = 17"}
+]
